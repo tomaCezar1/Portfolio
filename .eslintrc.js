@@ -32,7 +32,6 @@ module.exports = {
     ],
     rules: {
         'prettier/prettier': ['error', { endOfLine: 'auto' }, { usePrettierrc: true }],
-        'react/react-in-jsx-scope': 'off',
         'jsx-a11y/anchor-is-valid': [
             'error',
             {
@@ -43,7 +42,10 @@ module.exports = {
         ],
         'react/prop-types': 0,
         'react/display-name': 0,
+        'react/react-in-jsx-scope': 0,
         'no-console': ['error', { allow: ['warn'] }],
+        '@typescript-eslint/no-explicit-any': 0,
+        '@typescript-eslint/no-var-requires': 0,
         '@typescript-eslint/quotes': ['error', 'single'],
         '@typescript-eslint/no-unused-vars': ['error'],
         '@typescript-eslint/explicit-function-return-type': 0
