@@ -1,0 +1,25 @@
+@import '../src/Personal/Personal';
+@import '../src/Showcase/Showcase';
+
+.global-container {
+    width: 1440px;
+    color: $white;
+    margin: auto;
+    padding: 80px;
+}
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.column {
+    flex-direction: column;
+}

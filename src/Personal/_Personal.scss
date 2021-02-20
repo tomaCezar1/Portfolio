@@ -1,0 +1,19 @@
+@import '../../styles/constants.scss';
+
+.personal-container {
+    width: 100%;
+    max-width: 450px;
+    color: $white;
+    position: fixed;
+}
+
+.personal-heading {
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: $medium;
+}
+
+.personal-links-container {
+    display: flex;
+    align-items: center;
+}

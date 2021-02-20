@@ -1,0 +1,29 @@
+.shwocase-container {
+    margin-bottom: 90px;
+    overflow: auto;
+    height: 300vh;
+}
+
+.showcase-box {
+    width: 650px;
+    height: 200px;
+    background: $white;
+    color: $black;
+    padding: 24px;
+    transition: all 0.2s ease-in-out;
+    margin: 8px 0;
+    cursor: pointer;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.projects-container {
+    flex-wrap: wrap;
+}
+
+.projects-box {
+    width: 240px;
+    height: 300px;
+    background: $white;
+}
