@@ -11,9 +11,21 @@
     font-size: 64px;
     line-height: 64px;
     font-weight: $medium;
+    font-family: $poppins;
+    letter-spacing: 3px;
+}
+
+.header-name {
+    font-weight: $bold;
 }
 
 .personal-links-container {
     display: flex;
     align-items: center;
+}
+
+.personal-text {
+    font-family: $poppins;
+    margin-top: 32px;
+    line-height: 1.85;
 }

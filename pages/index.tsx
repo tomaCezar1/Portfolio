@@ -13,19 +13,21 @@ function Home(): JSX.Element {
             <section className="global-container">
                 <Personal />
                 <div className="flex flex-end">
-                    <div className="flex column">
-                        <Showcase lang="Javascript" title="Project" desc="a js library" />
-                        <Showcase lang="Javascript" title="Project" desc="a js library" />
-                        <Showcase lang="Javascript" title="Project" desc="a js library" />
-                        <Showcase lang="Javascript" title="Project" desc="a js library" />
-                        <Showcase lang="Javascript" title="Project" desc="a js library" />
+                    <div className="content-container flex column">
+                        <div className="showcase-container">
+                            <Showcase lang="Javascript" title="Project" desc="a js library" />
+                            <Showcase lang="Javascript" title="Project" desc="a js library" />
+                            <Showcase lang="Javascript" title="Project" desc="a js library" />
+                            <Showcase lang="Javascript" title="Project" desc="a js library" />
+                            <Showcase lang="Javascript" title="Project" desc="a js library" />
+                        </div>
+                        <div className="projects-container">
+                            <Projects lang="React" title="Stock Market App" />
+                            <Projects lang="React" title="Netflix Clone" />
+                            <Projects lang="React" title="Netflix Clone" />
+                            <Projects lang="React" title="Netflix Clone" />
+                        </div>
                     </div>
-                </div>
-                <div className="flex projects-container">
-                    <Projects />
-                    <Projects />
-                    <Projects />
-                    <Projects />
                 </div>
             </section>
         </>

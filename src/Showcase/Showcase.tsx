@@ -1,15 +1,16 @@
+import Link from 'next/link';
+
 function Showcase({ lang, title, desc }): JSX.Element {
     return (
         <>
-            <div className="showcase-container">
-                <div className="showcase-box-container">
-                    <div className="showcase-box">
-                        <h3>{lang}</h3>
-                        <h1>{title}</h1>
-                        <p>{desc}</p>
-                    </div>
+            <a href="/" className="relative showcase-links">
+                <div className="jelly-effect" />
+                <div className="showcase-box">
+                    <h3>{lang}</h3>
+                    <h1 className="showcase-title">{title}</h1>
+                    <p className="showcase-desc">{desc}</p>
                 </div>
-            </div>
+            </a>
         </>
     );
 }

@@ -2,8 +2,10 @@ function Personal(): JSX.Element {
     return (
         <>
             <div className="personal-container">
-                <h1 className="personal-heading">Hello, I'm Toma Cezar</h1>
-                <p>
+                <h1 className="personal-heading">
+                    Hello, I&apos;m <span className="header-name"> Toma Cezar </span>
+                </h1>
+                <p className="personal-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ipsum eos
                     nesciunt obcaecati amet voluptatum repudiandae libero dignissimos. Inventore ad
                     voluptatum, eum hic, libero assumenda et dignissimos blanditiis atque nisi quas
