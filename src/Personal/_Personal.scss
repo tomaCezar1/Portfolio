@@ -19,13 +19,33 @@
     font-weight: $bold;
 }
 
+.personal-links {
+    cursor: pointer;
+    margin: 0 16px;
+}
+
+.links-icons {
+    fill: #ffffff;
+    width: 20px;
+    height: 20px;
+    margin-right: 16px;
+}
+
 .personal-links-container {
     display: flex;
     align-items: center;
+    margin-top: 72px;
 }
 
 .personal-text {
     font-family: $poppins;
     margin-top: 32px;
     line-height: 1.85;
+}
+
+.profile-pic-container {
+}
+
+.profile-pic {
+    border-radius: 100px;
 }
