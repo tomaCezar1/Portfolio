@@ -1,20 +1,22 @@
 import { useContext } from 'react';
 import { BlurContext } from '../Context/BlurContext';
 
-function Showcase({ lang, title, desc }): JSX.Element {
-    const { hovered } = useContext(BlurContext);
-    const { mouseEnter } = useContext(BlurContext);
-    const { mouseLeave } = useContext(BlurContext);
+function Showcase({ link, lang, title, desc }): JSX.Element {
+    const { hovered, mouseEnter, mouseLeave } = useContext(BlurContext);
 
     return (
         <>
-            <a href="/" className="relative showcase-links">
+            <a
+                href={`${link}`}
+                target="_blank"
+                rel="noreferrer"
+                className="relative showcase-links">
                 <div className="jelly-effect" />
                 <div
                     className={`showcase-box ${hovered ? 'blur' : ''}`}
-                    onMouseEnter={(e) => mouseEnter(e)}
+                    onMouseEnter={mouseEnter}
                     onMouseLeave={mouseLeave}>
-                    <h3>{lang}</h3>
+                    <h3 className="showcase-lang">{lang}</h3>
                     <h1 className="showcase-title">{title}</h1>
                     <p className="showcase-desc">{desc}</p>
                 </div>

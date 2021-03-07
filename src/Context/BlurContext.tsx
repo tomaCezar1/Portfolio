@@ -6,9 +6,8 @@ export default function BlurProvider({ children }): JSX.Element {
     const [hovered, setHovered] = useState(false);
     const [noBlur, setNoBlur] = useState(true);
 
-    const mouseEnter = (e) => {
+    const mouseEnter = () => {
         setHovered(!hovered);
-        // setNoBlur(!noBlur);
     };
 
     const mouseLeave = () => {

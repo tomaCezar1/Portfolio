@@ -10,11 +10,10 @@ function Personal(): JSX.Element {
                 <h1 className="personal-heading">
                     Hello, I&apos;m <span className="header-name"> Toma Cezar </span>
                 </h1>
-                <p className="personal-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ipsum eos
-                    nesciunt obcaecati amet voluptatum repudiandae libero dignissimos. Inventore ad
-                    voluptatum, eum hic, libero assumenda et dignissimos blanditiis atque nisi quas
-                    impedit sed suscipit sint dicta laboriosam repellendus mollitia explicabo.
+                <p className="personal-text white">
+                    <span className="purple">React</span> developer.&nbsp;
+                    <span className="purple">IT</span> student.&nbsp;
+                    <span className="purple">Front-End</span> enthusiast.
                 </p>
                 <div className="personal-links-container">
                     <div className="profile-pic-container">
@@ -29,11 +28,11 @@ function Personal(): JSX.Element {
                     </div>
                     <div className="personal-links">
                         <Github className="links-icons" />
-                        <Link href="/">GitHub</Link>
+                        <Link href="https://github.com/tomaCezar1">GitHub</Link>
                     </div>
                     <div className="personal-links">
                         <LinkedIn className="links-icons" />
-                        <Link href="/">LinkedIn</Link>
+                        <Link href="www.linkedin.com/in/cezar-toma-541990190">LinkedIn</Link>
                     </div>
                 </div>
             </div>
