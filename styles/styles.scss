@@ -1,5 +1,6 @@
 @import '../src/Personal/Personal';
 @import '../src/Showcase/Showcase';
+@import '../src/About/About';
 
 .global-container {
     width: 1440px;
@@ -34,4 +35,23 @@
 
 .purple {
     color: $purple;
+}
+
+.circular-img-wrapper {
+    position: absolute;
+    z-index: 10;
+    top: 330px;
+    left: -380px;
+    width: 400px;
+    height: 400px;
+    animation: rotating 20s linear infinite;
+}
+
+@keyframes rotating {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
