@@ -1,0 +1,69 @@
+@import '../../styles/constants.scss';
+
+.about-container {
+    min-height: 100vh;
+    margin: 0 25vw;
+    padding-top: 15vw;
+    font-family: $roboto;
+}
+
+.about-h1 {
+    color: $lightGrey;
+    font-size: 64px;
+    font-weight: $bold;
+}
+
+.about-contact {
+    align-items: baseline;
+    margin: 32px 0;
+    li {
+        margin: 0 16px 0 0;
+    }
+}
+
+.about-download {
+    font-size: 16px;
+}
+
+.about-me {
+    margin-bottom: 16px;
+    color: $grey;
+}
+
+.about-section {
+    padding: 48px 0;
+    .about-title {
+        margin-bottom: 16px;
+    }
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 32px;
+
+    li {
+        font-size: 16px;
+        line-height: 24px;
+        font-family: $roboto;
+    }
+}
+
+.about-grid-experience {
+    grid-template-columns: 1fr;
+}
+
+.languages {
+    opacity: 0.6;
+}
+
+.about-icons {
+    fill: $purple;
+}
+
+.personal-links {
+    transition: all 0.4s ease;
+    &:hover .about-icons {
+        fill: $white;
+    }
+}

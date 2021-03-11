@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Github from '../../public/github.svg';
 import LinkedIn from '../../public/linkedin.svg';
+import CircularText from '../CircularText/CircularText';
 
 function Personal(): JSX.Element {
     return (
@@ -32,9 +33,12 @@ function Personal(): JSX.Element {
                     </div>
                     <div className="personal-links">
                         <LinkedIn className="links-icons" />
-                        <Link href="www.linkedin.com/in/cezar-toma-541990190">LinkedIn</Link>
+                        <Link href="https://www.linkedin.com/in/cezar-toma-541990190/">
+                            LinkedIn
+                        </Link>
                     </div>
                 </div>
+                <CircularText />
             </div>
         </>
     );

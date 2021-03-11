@@ -4,9 +4,11 @@ import BlurProvider from '../src/Context/BlurContext';
 
 function MyApp({ Component, pageProps }): JSX.Element {
     return (
-        <BlurProvider>
-            <Component {...pageProps} />
-        </BlurProvider>
+        <>
+            <BlurProvider>
+                <Component {...pageProps} />
+            </BlurProvider>
+        </>
     );
 }
 
