@@ -18,13 +18,14 @@
 .jelly-effect {
     width: 100%;
     height: 100%;
-    background: $grey;
+    background: $blackGrey;
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     transition: all 0.4s;
+    border-radius: 20px;
 }
 
 .showcase-box {

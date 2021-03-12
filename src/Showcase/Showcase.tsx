@@ -17,7 +17,7 @@ function Showcase({ link, lang, title, desc }): JSX.Element {
                     onMouseEnter={mouseEnter}
                     onMouseLeave={mouseLeave}>
                     <h3 className="showcase-lang">{lang}</h3>
-                    <h1 className="showcase-title">{title}</h1>
+                    <h1 className="showcase-title purple">{title}</h1>
                     <p className="showcase-desc">{desc}</p>
                 </div>
             </a>

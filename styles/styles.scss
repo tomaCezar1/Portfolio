@@ -1,12 +1,13 @@
 @import '../src/Personal/Personal';
 @import '../src/Showcase/Showcase';
 @import '../src/About/About';
+@import '../src/Header/Header';
 
-.global-container {
+.layout-container {
     width: 1440px;
-    color: $white;
     margin: auto;
-    padding: 80px;
+    color: $white;
+    padding: 0 40px 80px;
 }
 
 .flex {

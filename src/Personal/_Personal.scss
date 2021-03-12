@@ -22,15 +22,29 @@
 .personal-links {
     cursor: pointer;
     margin: 0 16px;
-    &:hover .links-icons {
-        transition: all 0.4s ease;
-        fill: $purple;
+    transition: all 0.4s ease;
+    .links-icons {
+        transition: all 0.3s ease;
+        &:hover {
+            fill: $purple;
+        }
     }
     &:hover {
         color: $purple;
-        transition: all 0.4s ease;
     }
 }
+
+// .personal-links {
+//     transition: all 0.4s ease;
+//     .links-icons {
+//         transition: all 0.4s ease;
+//     }
+//     &:hover,
+//     &:hover .links-icons {
+//         fill: $purple;
+//         color: $purple;
+//     }
+// }
 
 .links-icons {
     fill: #ffffff;

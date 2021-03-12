@@ -62,7 +62,9 @@
 }
 
 .personal-links {
-    transition: all 0.4s ease;
+    .about-icons {
+        transition: fill 0.3s ease-in-out;
+    }
     &:hover .about-icons {
         fill: $white;
     }

@@ -1,0 +1,21 @@
+@import '../../styles/constants.scss';
+
+.header-container {
+    font-family: $roboto;
+    height: 60px;
+    max-width: 80vw;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.header-li {
+    color: $lightGrey;
+    margin-left: 16px;
+    font-size: 20px;
+}
+
+.current-page {
+    color: $lightGrey;
+    font-size: 20px;
+}
